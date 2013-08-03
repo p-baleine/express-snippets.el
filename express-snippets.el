@@ -1,5 +1,5 @@
 ;; Find mocha-expect-snippets root directory
-(setq mocha-expect-snippets-root (file-name-directory
+(setq express-snippets-root (file-name-directory
 				  (or (buffer-file-name) load-file-name)))
 
 ;; Load snippets
