@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: express.app.listen
+# key: eal
+# --
+if (!module.parent) {
+  app.listen(${1:port});
+  console.log('Express started on port 3000');
+}
